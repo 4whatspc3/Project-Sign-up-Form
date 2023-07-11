@@ -49,3 +49,22 @@ body {
     color: white;
     font-size: 80px;
 }
+
+.credits {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color:white;
+    text-align: center;
+}
+
+a {
+    color:white;
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+}
