@@ -100,5 +100,44 @@ a:visited {
 
 .container-forms {
     flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     background-color: beige;
+}
+
+.container-forms p {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 11, 11);
+}
+
+form, fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+fieldset div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+label {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:black;
+}
+
+input {
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    padding: 2px;
 }
