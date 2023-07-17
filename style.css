@@ -170,7 +170,14 @@ label {
 }
 
 input {
-    border: 1px solid rgb(206, 206, 206);
+    border: 1px solid #E5E7EB;
     border-radius: 5px;
     padding: 2px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #0055ff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
