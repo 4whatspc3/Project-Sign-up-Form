@@ -1,3 +1,9 @@
+:root, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 @font-face {
     font-family: Norse-Bold;
     src: url(./fonts/Norse-Bold.otf);
@@ -11,25 +17,25 @@
 
 body {
     height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
-    gap: 10px;
 }
 
 .first-container,
 .second-container {
-    width: 500px;
-    height: 800px;
-    border: 5px solid red;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 .first-container {
+    width: 40%;
     position: relative;
 }
 
 .main-background {
-    width: 100%;
     height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -75,6 +81,7 @@ a:visited {
 }
 
 .second-container {
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
