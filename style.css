@@ -74,12 +74,12 @@ body {
     text-align: center;
 }
 
-a {
+.first-container a {
     color:white;
     text-decoration: underline;
 }
 
-a:visited {
+.firstcontainer a:visited {
     text-decoration: none;
 }
 
@@ -137,8 +137,14 @@ a:visited {
     font-size: 14px;
 }
 
-b {
+.container-forms a {
     color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container-forms a:visited {
+    text-decoration: none;
 }
 
 form, fieldset {

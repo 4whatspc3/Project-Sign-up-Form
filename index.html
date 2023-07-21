@@ -7,6 +7,8 @@
     <title>Project-Sing-up-Form</title>
 
     <link rel="stylesheet" href="./style.css">
+
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="first-container">
@@ -30,7 +32,7 @@
         <div class="container-forms">
             <p>Let's do this!</p>
 
-            <form action="" method="post" autocomplete="off">
+            <form action="" method="GET" autocomplete="off">
                 <fieldset>
                     <div>
                         <label for="first_name">First Name:</label>
@@ -60,13 +62,15 @@
                     <div class="error">
                         <label for="confirm_password">Confirm Password:</label>
                         <input type="password" id="confirm_password" name="confirm_password" minlength="8" maxlength="40" required>
+
+                        <div class="warning"></div>
                     </div>
                 </fieldset>
 
                 <button type="submit">Create Account</button>
             </form>
         
-            <p>Already have an account? <b>Log in</b></p>
+            <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>
 </body>
